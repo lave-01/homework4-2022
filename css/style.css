@@ -39,7 +39,7 @@ header {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    align-item: center;
+    align-items: center;
 }
 
 .card {
@@ -103,7 +103,7 @@ header {
 
     body>header:first-of-type {
         position: sticky;
-        top: 0px;
+        top: 0;
         z-index: 999;
     }
 }
