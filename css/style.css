@@ -74,9 +74,15 @@ header {
     }
 }
 
-/* #logo {
+#logo {
     animation: move 5s;
-} */
+}
+
+@media screen and (prefers-reduced-motion: reduce) {
+    #logo {
+        animation: none;
+    }
+}
 
 @media screen and (min-width: 900px) {
     header {
